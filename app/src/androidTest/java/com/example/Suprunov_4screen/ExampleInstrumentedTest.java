@@ -1,4 +1,4 @@
-package com.example.bakunov_2screen;
+package com.example.Suprunov_4screen;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.bakunov_2screen", appContext.getPackageName());
+        assertEquals("com.example.Suprunov_4screen", appContext.getPackageName());
     }
 }

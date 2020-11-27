@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bakunov_2screen">
+    package="com.example.Suprunov_4screen">
 
     <application
         android:allowBackup="true"
@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Gallery"></activity>
-        <activity android:name=".Activity3" />
-        <activity android:name=".Activity2" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.Suprunov_4screen.Gallery"></activity>
+        <activity android:name="com.example.Suprunov_4screen.Activity3" />
+        <activity android:name="com.example.Suprunov_4screen.Activity2" />
+        <activity android:name="com.example.Suprunov_4screen.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

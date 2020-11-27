@@ -1,12 +1,13 @@
-package com.example.bakunov_2screen;
+package com.example.Suprunov_4screen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
+
+import com.example.Suprunov_4screen.R;
 
 public class Activity3 extends AppCompatActivity {
 

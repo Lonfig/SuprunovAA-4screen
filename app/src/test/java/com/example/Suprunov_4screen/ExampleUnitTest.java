@@ -1,4 +1,4 @@
-package com.example.bakunov_2screen;
+package com.example.Suprunov_4screen;
 
 import org.junit.Test;
 

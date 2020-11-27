@@ -1,4 +1,4 @@
-package com.example.bakunov_2screen;
+package com.example.Suprunov_4screen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,19 +7,27 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class Gallery extends AppCompatActivity {
+import com.example.Suprunov_4screen.R;
+
+public class Activity2 extends AppCompatActivity {
 
     private ImageButton button;
     private ImageButton button2;
-    private ImageButton button3;
+    private ImageButton button4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gallery);
+        setContentView(R.layout.activity_2);
 
+        button2 = (ImageButton) findViewById(R.id.buttonTo1From3);
+        button2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                openActivity2();
+            }
+        });
 
-
-        button2 = (ImageButton) findViewById(R.id.camera4);
+        button2 = (ImageButton) findViewById(R.id.buttonTo3From2);
         button2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -27,8 +35,8 @@ public class Gallery extends AppCompatActivity {
             }
         });
 
-        button3 = (ImageButton) findViewById(R.id.contact4);
-        button3.setOnClickListener(new View.OnClickListener(){
+        button4 = (ImageButton) findViewById(R.id.gallery_btn);
+        button4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 openActivity4();
@@ -44,7 +52,7 @@ public class Gallery extends AppCompatActivity {
         startActivity(intent);
     }
     public void openActivity4(){
-        Intent intent = new Intent(this, Activity2.class);
+        Intent intent = new Intent(this, Gallery.class);
         startActivity(intent);
     }
 }
